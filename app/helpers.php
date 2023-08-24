@@ -3,7 +3,7 @@
 if (!function_exists('view')) {
     function view($view)
     {
-        return new App\Http\Response();
+        return new App\Http\Response($view);
     }
 }
 
